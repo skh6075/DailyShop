@@ -3,4 +3,4 @@
 
 # Depend
 
-* ScheduleAPI[https://github.com/SKHPMMPPlugins/ScheduleAPI]
+* [ScheduleAPI](https://github.com/SKHPMMPPlugins/ScheduleAPI)
