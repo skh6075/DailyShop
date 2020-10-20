@@ -1,0 +1,32 @@
+prefix: "§l§b[데일리샵]§r§7 "
+
+dailyshop.command.name: "데일리샵"
+dailyshop.command.description: "데일리샵 명령어 입니다."
+dailyshop.dont.have.permission: "당신은 이 명령어를 사용할 권한이 없습니다."
+
+dailyshop.command.parameter.spawnentity: "스폰"
+dailyshop.command.parameter.spawnentity.description: "/데일리샵 스폰 - 데일리샵 엔피시를 소환합니다."
+dailyshop.command.parameter.spawnentity.success: "성공적으로 서있는 위치에 데일리샵 엔티티를 소환하였습니다."
+
+dailyshop.command.parameter.setslot: "슬롯"
+dailyshop.command.parameter.setslot.description: "/데일리샵 슬롯 [슬롯] - 데일리샵 물품 최대수를 설정합니다."
+dailyshop.command.parameter.setslot.success: "성공적으로 슬롯을 §f%slot%§7 으로 설정하였습니다."
+dailyshop.command.parameter.setslot.fail: "최대 슬롯은 54칸 이하만 가능합니다."
+
+dailyshop.command.parameter.additem: "물품추가"
+dailyshop.command.paramter.additem.description: "/데일리샵 물품추가 [수량] [최대구매수량] [가격] - 데일리샵 물품을 추가합니다."
+dailyshop.command.paramter.additem.success: "손에 들고있는 아이템을 물품에 추가하였습니다."
+dailyshop.command.paramter.additem.fail: "손에 아이템을 들고 명령어를 사용해주세요."
+
+dailyshop.command.parameter.removeitem: "물품제거"
+dailyshop.command.parameter.removeitem.description: "/데일리샵 물품제거 [번호] - 데일리샵 물품을 삭제합니다."
+dailyshop.command.parameter.removeitem.success: "성공적으로 §f%key%§7번 물품을 삭제하였습니다."
+dailyshop.command.parameter.removeitem.fail: "해당 번호의 물품을 찾을 수 없습니다."
+
+dailyshop.entity.nametag: "§l데일리샵"
+dailyshop.update.broadcastmessage: "데일리샵 물품이 변경되었습니다."
+
+dailyshop.form.menu.content.label: "최대 구매 가능 개수: %maxCount%개\n물품 아이템: %itemname%\n\n개당 가격: %price%원"
+dailyshop.itembuy.success: "아이템을 구매하였습니다."
+dailyshop.itembuy.money.fail: "돈이 부족합니다."
+dailyshop.itembuy.maxcount: "최대 구매수량을 넘을순 없습니다."

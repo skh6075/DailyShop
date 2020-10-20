@@ -1,0 +1,32 @@
+prefix: "§l§b[DailyShop]§r§7 "
+
+dailyshop.command.name: "ds"
+dailyshop.command.description: "dailyshop command"
+dailyshop.dont.have.permission: "You don't have permission."
+
+dailyshop.command.parameter.spawnentity: "npc"
+dailyshop.command.parameter.spawnentity.description: "/ds npc - spawn dailyshop npc."
+dailyshop.command.parameter.spawnentity.success: "success spawn dailyshop npc"
+
+dailyshop.command.parameter.setslot: "slot"
+dailyshop.command.parameter.setslot.description: "/ds slot [int] - set max dailyshop item slot."
+dailyshop.command.parameter.setslot.success: "success dailyshop item slot §f%slot%§7 slot."
+dailyshop.command.parameter.setslot.fail: "max slot 54."
+
+dailyshop.command.parameter.additem: "additem"
+dailyshop.command.paramter.additem.description: "/ds additem [count] [maxCount] [price] - dailyshop additem."
+dailyshop.command.paramter.additem.success: "success handitem add dailyshop item."
+dailyshop.command.paramter.additem.fail: "please, hand held item."
+
+dailyshop.command.parameter.removeitem: "deleteitem"
+dailyshop.command.parameter.removeitem.description: "/ds deleteitem [index] - delete dailyshop item."
+dailyshop.command.parameter.removeitem.success: "success delete dailyshop item §f%key%§7."
+dailyshop.command.parameter.removeitem.fail: "not found index item"
+
+dailyshop.entity.nametag: "§lDailyShop"
+dailyshop.update.broadcastmessage: "Changed DailyShop Items."
+
+dailyshop.form.menu.content.label: "Can MaxBuy ItemCount: %maxCount%개\nItem Name: %itemname%\n\nPrice: %price%원"
+dailyshop.itembuy.success: "success item buy"
+dailyshop.itembuy.money.fail: "not enough money.."
+dailyshop.itembuy.maxcount: "yout already buy maxcount."
