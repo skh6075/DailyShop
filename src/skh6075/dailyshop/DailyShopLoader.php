@@ -58,8 +58,6 @@ class DailyShopLoader extends PluginBase{
         $this->language
                 ->setLang ($this->setting ["language"])
                 ->setTranslates (yaml_parse (file_get_contents ($this->getDataFolder () . "lang/" . $this->setting ["language"] . ".yml")));
-        //var_dump (yaml_parse (file_get_contents ($this->getDataFolder () . "lang/" . $this->setting ["language"] . ".yml")));
-        var_dump ($this->language->translate ("dailyshop.command.name", [], true));
         $this->getServer ()->getCommandMap ()->register ("dailyshop", new DailyShopCommand ($this));
     }
     
